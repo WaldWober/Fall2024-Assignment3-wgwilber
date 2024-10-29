@@ -1,0 +1,110 @@
+﻿@model Fall2024_Assignment3_wgwilber.Models.ActorDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Actor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actor.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor.Gender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actor.Gender)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor.Age)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actor.Age)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor.IMDBLink)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actor.IMDBLink)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor.Photo)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Actor.Photo != null)
+            {
+                var base64 = Convert.ToBase64String(Model.Actor.Photo);
+                var imgSrc = $"data:image/jpg;base64,{base64}";
+                <img src="@imgSrc" style="width:250px;height:auto" />
+            }
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Actor.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<h5>Filmography</h5>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Movies)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-controller="Movies" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-controller="Movies" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-controller="Movies" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h5>Tweets</h5>
+<h4>Overall Sentiment: @Model.OverallSentiment</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tweet</th>
+            <th>Date</th>
+            <th>Sentiment Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tweet in Model.Tweets)
+        {
+            <tr>
+                <td>@tweet.TweetText</td>
+                <td>@tweet.CreatedAt.ToString("MMMM dd, yyyy")</td>
+                <td>@tweet.SentimentScore.ToString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-action="GenerateTweet" method="post">
+    <input type="hidden" name="id" value="@Model.Actor.Id" />
+    <label for="tweeter"> Tweet Author: </label>
+    <input type="text" id="tweeter" name="tweeter" required />
+    <button type="submit" class="btn btn-primary">Generate Tweet</button>
+</form>
