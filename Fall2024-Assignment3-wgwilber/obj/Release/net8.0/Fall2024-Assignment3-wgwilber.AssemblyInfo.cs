@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fall2024-Assignment3-wgwilber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495478a595dcd03c52548c05d8199bc43f453965")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fall2024-Assignment3-wgwilber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fall2024-Assignment3-wgwilber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

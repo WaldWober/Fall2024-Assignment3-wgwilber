@@ -32,7 +32,7 @@
             @Html.DisplayNameFor(model => model.Actor.IMDBLink)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Actor.IMDBLink)
+            <a href="@Model.Actor.IMDBLink" target="_blank">@Model.Actor.IMDBLink</a>
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Actor.Photo)
@@ -81,7 +81,7 @@
 </table>
 
 <h5>Tweets</h5>
-<h4>Overall Sentiment: @Model.OverallSentiment</h4>
+<h6>Overall Sentiment: @Model.OverallSentiment</h6>
 <table class="table">
     <thead>
         <tr>
@@ -106,5 +106,5 @@
     <input type="hidden" name="id" value="@Model.Actor.Id" />
     <label for="tweeter"> Tweet Author: </label>
     <input type="text" id="tweeter" name="tweeter" required />
-    <button type="submit" class="btn btn-primary">Generate Tweet</button>
+    <button type="submit" class="btn btn-success">Generate Tweet</button>
 </form>

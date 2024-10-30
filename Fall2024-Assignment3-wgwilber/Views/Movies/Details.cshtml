@@ -20,7 +20,7 @@
             @Html.DisplayNameFor(model => model.Movie.IMDBLink)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Movie.IMDBLink)
+            <a href="@Model.Movie.IMDBLink" target="_blank">@Model.Movie.IMDBLink</a>
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Movie.Genre)
@@ -80,7 +80,7 @@
 </table>
 
 <h5>Reviews</h5>
-<h4>Overall Sentiment: @Model.OverallSentiment</h4>
+<h6>Overall Sentiment: @Model.OverallSentiment</h6>
     <table class="table">
         <thead>
             <tr>
@@ -105,5 +105,5 @@
     <input type="hidden" name="id" value="@Model.Movie.Id" />
     <label for="reviewer"> Review Author: </label>
     <input type="text" id="reviewer" name="reviewer" required />
-    <button type="submit" class="btn btn-primary">Generate Review</button>
+    <button type="submit" class="btn btn-success">Generate Review</button>
 </form>

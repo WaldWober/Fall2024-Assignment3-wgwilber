@@ -3,7 +3,14 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Baba Booey</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">GreenDb</h1>
+    <p>If IMDb was green I think it would look something like this.</p>
 </div>
 
+<div class="container mt-4">
+    <div class="text-center mt-3">
+        <a asp-controller="Actors" asp-action="Create" class="btn btn-success text-white">Create New Actor</a>
+        <a asp-controller="Movies" asp-action="Create" class="btn btn-success text-white">Create New Movie</a>
+        <a asp-controller="ActorMovies" asp-action="Create" class="btn btn-success text-white">Create New Actor/Movie Relationship</a>
+    </div>
+</div>

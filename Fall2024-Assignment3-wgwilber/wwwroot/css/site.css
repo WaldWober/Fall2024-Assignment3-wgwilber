@@ -19,4 +19,25 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: black;
+  color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact;
+    font-style: normal;
+    font-variant: normal;
+}
+
+table, th, td {
+    color: white;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: darkgreen;
 }

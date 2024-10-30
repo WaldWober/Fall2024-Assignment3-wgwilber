@@ -17,107 +17,107 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fall2024_Assignment3_wgwilber
 build_property.RootNamespace = Fall2024_Assignment3_wgwilber
-build_property.ProjectDir = C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber\
+build_property.ProjectDir = C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber\Fall2024-Assignment3-wgwilber\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber
+build_property.MSBuildProjectDirectory = C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber\Fall2024-Assignment3-wgwilber
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Create.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Delete.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Details.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Edit.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Index.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/ActorMovies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Actors/Create.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Actors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Actors/Delete.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Actors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Actors/Details.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Actors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Actors/Edit.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Actors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Actors/Index.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Actors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Home/Index.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Home/Privacy.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Movies/Create.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Movies/Delete.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Movies/Details.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Movies/Edit.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Movies/Index.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Shared/Error.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Shared/_LoginPartial.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/_ViewImports.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/_ViewStart.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Views/Shared/_Layout.cshtml]
+[C:/UA Documents/CS-330/Project3/Fall2024-Assignment3-wgwilber/Fall2024-Assignment3-wgwilber/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e5rf6jbu9k

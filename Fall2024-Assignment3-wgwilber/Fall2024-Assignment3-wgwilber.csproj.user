@@ -12,6 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Fall2024_Assignment3_wgwilber.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber\Properties\PublishProfiles\Fall2024-Assignment3-wgwilber20241028220618 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\UA Documents\CS-330\Project3\Fall2024-Assignment3-wgwilber\Fall2024-Assignment3-wgwilber\Properties\PublishProfiles\Fall2024-Assignment3-wgwilber20241028220618 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
